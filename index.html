@@ -1,126 +1,242 @@
-<!DOCTYPE HTML>
-<!--
-	Tatheer
-	html5up.net | @ajlkn
-	
--->
-<html>
-	<head>
-		<title>Tatheer Zahra</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Tatheer Zahra | Software Engineer</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta
+    name="description"
+    content="Tatheer Zahra – Solutions-focused software engineer specializing in backend systems, cloud platforms, and AI-driven automation."
+  />
 
-		<!-- Wrapper -->
-			<div id="wrapper">
+  <style>
+    :root {
+      --bg: #ffffff;
+      --text: #0f172a;
+      --muted: #64748b;
+      --accent: #4f46e5;
+      --card: #f8fafc;
+      --border: #e5e7eb;
+    }
 
-				<!-- Header -->
-					<header id="header" class="alt">
-						<a href="index.html" class="logo"><strong>Welcome!</strong> <span></span></a>
-						<nav>
-							<a href="#menu">Menu</a>
-						</nav>
-					</header>
+    * {
+      box-sizing: border-box;
+    }
 
-				<!-- Menu -->
-					<nav id="menu">
-						<ul class="links">
-							<li><a href="index.html">Home</a></li>
-							<li><a href="generic.html">Introduction</a></li>
-							<li><a href="elements.html">Work Experience</a></li>
-							<li><a href="landing.html">Projects</a></li>
-							<li><a href="element2.html">Personal Life</a></li>
-						</ul>
-					</nav>
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont,
+        "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      color: var(--text);
+      background: var(--bg);
+      line-height: 1.65;
+    }
 
-				<!-- Banner -->
-					<section id="banner" class="major">
-						<div class="inner">
-							<header class="major">
-								
-								<h1><img src="images/00000211972.JPG" alt="" width="200" length="300" />Hello, I am Tatheer!</h1>
-							</header>
-							<div class="content">
-								<p>A Computer Science Grad Student at Penn State(Go Nittany Lions!) who has a cat named trigonometry<br />
-								</p>
-								<ul class="actions">
-									<li><a href="#one" class="button next scrolly">Get to know me!</a></li>
-								</ul>
-							</div>
-						</div>
-					</section>
+    a {
+      color: var(--accent);
+      text-decoration: none;
+      font-weight: 500;
+    }
 
-				<!-- Main -->
-					<div id="main">
+    header {
+      padding: 4.5rem 1.5rem 3.5rem;
+      text-align: center;
+      background: linear-gradient(180deg, #f8fafc, #ffffff);
+      border-bottom: 1px solid var(--border);
+    }
 
-						<!-- One -->
-							<section id="one" class="tiles">
-								<article>
-									<span class="image">
-										<img src="images/pic01.jpg" alt="" />
-									</span>
-									<header class="major">
-										<h3><a href="generic.html" class="link">Introduction</a></h3>
-										<p>A brief overview</p>
-									</header>
-								</article>
-								<article>
-									<span class="image">
-										<img src="images/pic02.jpg" alt="" />
-									</span>
-									<header class="major">
-										<h3><a href="elements.html" class="link">Work Experience</a></h3>
-										<p>See where I have worked!</p>
-									</header>
-								</article>
-								<article>
-									<span class="image">
-										<img src="images/pic03.jpg" alt="" />
-									</span>
-									<header class="major">
-										<h3><a href="landing.html" class="link">Projects</a></h3>
-										<p>Have a look at my projects!</p>
-									</header>
-								</article>
-								<article>
-									<span class="image">
-										<img src="images/pic04.jpg" alt="" />
-									</span>
-									<header class="major">
-										<h3><a href="element2.html" class="link">Personal Life</a></h3>
-										<p>Peek into my life(and animals)!</p>
-									</header>
-								</article>
-					</div>
-						
-				<!-- Footer -->
-					<footer id="footer">
-						<div class="inner">
-							<ul class="icons">
-								<li><a href="https://github.com/TatheerZahara" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
-								<li><a href="https://www.linkedin.com/in/tatheer-zahra14/" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
-								<li><a href="https://twitter.com/TatheerZahara" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
-								<li><a href="https://www.instagram.com/tatheer10/" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
-								<li><a href="mailto:tatheer13@gmail.com" class="icon solid alt fa-envelope"><span class="label">Email</span></a></li>
-								
-								
-							</ul>
-						</div>
-					</footer>
+    header img {
+      width: 160px;
+      height: 160px;
+      border-radius: 50%;
+      object-fit: cover;
+      box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
+      margin-bottom: 1.75rem;
+    }
 
-			</div>
+    header h1 {
+      font-size: clamp(2.2rem, 5vw, 3rem);
+      margin: 0;
+      font-weight: 700;
+    }
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+    header p {
+      color: var(--muted);
+      max-width: 760px;
+      margin: 1.25rem auto 2.25rem;
+      font-size: 1.05rem;
+    }
 
-	</body>
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 1.75rem;
+      flex-wrap: wrap;
+    }
+
+    main {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 4rem 1.5rem;
+    }
+
+    section {
+      margin-bottom: 4rem;
+    }
+
+    section h2 {
+      font-size: 1.75rem;
+      margin-bottom: 1.25rem;
+      letter-spacing: -0.02em;
+    }
+
+    .about p {
+      color: var(--text);
+      margin-bottom: 1.25rem;
+    }
+
+    .skills {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 1.5rem;
+    }
+
+    .card {
+      background: var(--card);
+      padding: 1.75rem;
+      border-radius: 16px;
+      border: 1px solid var(--border);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.12);
+    }
+
+    .card h3 {
+      margin-top: 0;
+      margin-bottom: 0.75rem;
+      font-size: 1.2rem;
+    }
+
+    .card p {
+      color: var(--muted);
+      margin: 0;
+      font-size: 0.95rem;
+    }
+
+    footer {
+      border-top: 1px solid var(--border);
+      padding: 2.75rem 1.5rem;
+      text-align: center;
+    }
+
+    .socials {
+      display: flex;
+      justify-content: center;
+      gap: 1.5rem;
+      flex-wrap: wrap;
+      margin-bottom: 1rem;
+    }
+
+    footer p {
+      color: var(--muted);
+      font-size: 0.9rem;
+      margin: 0;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <img src="images/00000211972.JPG" alt="Tatheer Zahra" />
+    <h1>Hi, I’m Tatheer 👋</h1>
+    <p>
+      Solutions-focused software engineer with 3+ years of experience building
+      scalable systems, automating complex workflows, and delivering
+      production-ready solutions across cloud and SaaS environments.
+    </p>
+    <nav>
+      <a href="generic.html">Introduction</a>
+      <a href="elements.html">Work Experience</a>
+      <a href="landing.html">Projects</a>
+      <a href="element2.html">Personal Life</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="about">
+      <h2>About Me</h2>
+      <p>
+        I work at the intersection of engineering and problem-solving — designing
+        reliable backend services, integrating APIs, and translating ambiguous
+        requirements into scalable, maintainable systems.
+      </p>
+      <p>
+        At <strong>Hewlett Packard Enterprise</strong>, I engineered automation and
+        internal tooling that reduced triage time by <strong>50%</strong>,
+        improved service uptime by <strong>15%</strong>, and increased platform
+        adoption by <strong>25%</strong>. I collaborate closely with customers,
+        product teams, and stakeholders to ensure solutions deliver measurable
+        impact.
+      </p>
+      <p>
+        I enjoy owning technical challenges end-to-end — from backend services
+        and distributed systems to AI-driven automation and full-stack features.
+        I’m especially interested in integrating AI into developer and client
+        workflows to streamline processes, automate repetitive tasks, and build
+        intuitive, impactful systems.
+      </p>
+    </section>
+
+    <section>
+      <h2>Core Skills</h2>
+      <div class="skills">
+        <div class="card">
+          <h3>Languages</h3>
+          <p>Python, C++, Java, JavaScript, SQL</p>
+        </div>
+        <div class="card">
+          <h3>Backend & Systems</h3>
+          <p>
+            Distributed Systems, Microservices, API Development, System Design,
+            PostgreSQL
+          </p>
+        </div>
+        <div class="card">
+          <h3>Cloud & Data</h3>
+          <p>
+            AWS, GCP, Kubernetes, Kafka, BigQuery, Snowflake, Redshift
+          </p>
+        </div>
+        <div class="card">
+          <h3>DevOps & Automation</h3>
+          <p>
+            CI/CD, Jenkins, LLM Automation, Agentic Workflows, Architecture Design
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Education</h2>
+      <div class="card">
+        <h3>Master of Science in Computer Science Engineering</h3>
+        <p>Penn State University</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="socials">
+      <a href="https://github.com/TatheerZahara">GitHub</a>
+      <a href="https://www.linkedin.com/in/tatheer-zahra14/">LinkedIn</a>
+      <a href="https://twitter.com/TatheerZahara">Twitter</a>
+      <a href="https://www.instagram.com/tatheer10/">Instagram</a>
+      <a href="mailto:tatheer13@gmail.com">Email</a>
+    </div>
+    <p>© 2026 Tatheer Zahra</p>
+  </footer>
+</body>
 </html>
